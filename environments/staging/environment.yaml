@@ -3,11 +3,12 @@ app:
   # build id to deploy
   # version: 1.0-SNAPSHOT-20230716015630
   # number of instances
+  endpoints: public
   instances:
     # q: consider availability zones? 
 
     # min number of instances. can be 0 for scale to 0. default to 1.
-    min: 1
+    min: 2
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
     # q: what's the overall limit?
     max: 2
@@ -41,7 +42,7 @@ app:
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
   #    logGroup: myLogGroup
   #    region: us-east-3
-  version: "63ff6f8a-0803-4ae3-be63-d1cc283b90ef"
+  version: "3325d9f6-d2df-464b-8f27-d2dbf867f385"
 # probes
 # dynamic scaling
 # scaling to 0
