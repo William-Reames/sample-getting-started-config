@@ -37,7 +37,7 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-  version: "9008295c-2e3c-41cf-bae4-6df36ba085af"
+  version: "5a546aad-4797-45c5-8236-6d88ec32dc42"
 # probes
 # dynamic scaling
 # scaling to 0
